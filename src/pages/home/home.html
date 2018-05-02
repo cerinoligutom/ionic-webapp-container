@@ -1,14 +1,18 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      ZeferiniX WebApp Container
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <form (ngSubmit)="goToUrl()">
+    <ion-item no-padding>
+      <ion-label color="primary" stacked>Localhost URL</ion-label>
+      <ion-input name="url" [(ngModel)]="url" type="text" placeholder="http://localhost:3000/" required></ion-input>
+    </ion-item>
+
+    <button type="submit" ion-button full margin-top>GO</button>
+  </form>
 </ion-content>
