@@ -1,20 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.zeferinix.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.zeferinix.webapp_container.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>ZeferiniX Webapp Container</name>
     <description>An ionic webapp container for faster development!</description>
     <author email="zeferinix@gmail.com" href="https://www.zeferinix.com/">ZeferiniX</author>
     <content src="index.html" />
     <access origin="*" />
-    <access origin="cdvfile://*" />
-    <access origin="file://*" />
     <allow-navigation href="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
-    <allow-intent href="content:*" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="tel:*" />
+    <allow-navigation href="sms:*" />
+    <allow-navigation href="mailto:*" />
+    <allow-navigation href="geo:*" />
+    <allow-navigation href="content:*" />
     <preference name="webviewbounce" value="false" />
     <preference name="CRIPageLoadPromptInterval" value="25" />
     <preference name="UIWebViewBounce" value="false" />
@@ -109,4 +107,5 @@
     <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
     <plugin name="cordova-plugin-x-toast" spec="^2.6.2" />
     <engine name="android" spec="7.0.0" />
+    <plugin name="cordova-plugin-remote-injection" spec="^0.5.2" />
 </widget>

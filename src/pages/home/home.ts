@@ -15,14 +15,6 @@ export class HomePage {
   ) {}
 
   goToUrl() {
-    const browser = this.iab.create(
-      this.url,
-      '_self',
-      {
-        location: 'no',
-        toolbar: 'no',
-        hardwareback: 'no'
-      }
-    );
+    window.open(this.url, '_self', 'location=no,toolbar=no,hardwareback=no');
   }
 }
