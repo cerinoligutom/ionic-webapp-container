@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 @Component({
   selector: 'page-home',
@@ -10,8 +9,7 @@ export class HomePage {
   url: string = 'http://192.168.';
 
   constructor(
-    public navCtrl: NavController,
-    private iab: InAppBrowser
+    public navCtrl: NavController
   ) {}
 
   goToUrl() {
