@@ -43,7 +43,6 @@
     "cordova-plugin-contacts": "^3.0.1",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-dialogs": "^2.0.1",
-    "cordova-plugin-document-viewer": "^0.9.9",
     "cordova-plugin-geolocation": "^4.0.1",
     "cordova-plugin-inappbrowser": "^3.0.0",
     "cordova-plugin-ionic-webview": "^1.1.19",
@@ -73,9 +72,8 @@
       "cordova-plugin-contacts": {},
       "cordova-plugin-device": {},
       "cordova-plugin-dialogs": {},
-      "cordova-plugin-document-viewer": {},
       "cordova-plugin-geolocation": {
-        "GEOLOCATION_USAGE_DESCRIPTION": "To locate you"
+        "GEOLOCATION_USAGE_DESCRIPTION": "To enable location features of your app"
       },
       "cordova-plugin-inappbrowser": {},
       "ionic-plugin-keyboard": {},
